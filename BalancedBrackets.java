@@ -13,7 +13,7 @@ Output: Not Balanced
 import java.util.*;
 
 public class BalancedBrackets {
-	static boolean areBracketsBalanced(String expr) {
+	static boolean codewithvirus(String expr) {
 		Deque<Character> stack = new ArrayDeque<Character>();
 		for (int i = 0; i < expr.length(); i++) {
 			char x = expr.charAt(i);
@@ -49,7 +49,7 @@ public class BalancedBrackets {
 		Scanner sc = new Scanner(System.in);
 		String str = sc.nextLine();
 
-		if (areBracketsBalanced(str))
+		if (codewithvirus(str))
 			System.out.println("Balanced ");
 		else
 			System.out.println("Not Balanced ");
